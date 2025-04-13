@@ -144,7 +144,7 @@ header {
 .stats-container {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 0;
     background-color: #053b44;
     width: 100vw;
@@ -165,9 +165,13 @@ header {
     
 
 }
+.div-box h6{
+    font-size:2.5vw ;
+    font-weight: bold;
+}
 .div-box span  {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: normal;
     color: white;
     
